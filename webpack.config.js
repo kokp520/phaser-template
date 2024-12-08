@@ -1,3 +1,10 @@
+// /Users/adiwu/repo/phaser-template/webpack.config.js
+// Start of Selection
+// 此配置的目的是為了設置 Webpack 以支持 Phaser 項目和 TypeScript。
+// 它定義了入口點，優化了 Phaser 和 Phaser Editor 2D 的塊拆分，並配置了輸出設置。
+// 模塊規則指定如何處理 TypeScript 和 JSON 文件，而 devServer 設置則啟用熱模塊替換並在端口 8080 打開應用程序。
+// 插件用於生成 HTML 文件，清理輸出目錄，複製靜態資產，並啟用熱模塊替換。
+
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
@@ -67,7 +74,7 @@ module.exports = {
                 {
                     from: "static",
                     globOptions: {
-                        // asset pack files are imported in code as modules
+                        // 資產包文件在代碼中作為模塊導入
                         ignore: ["**/publicroot", "**/*-pack.json"]
                     }
                 }

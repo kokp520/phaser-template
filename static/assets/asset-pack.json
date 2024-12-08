@@ -2,9 +2,39 @@
     "section1": {
         "files": [
             {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
                 "url": "assets/FufuSuperDino.png",
                 "type": "image",
                 "key": "FufuSuperDino"
+            },
+            {
+                "url": "assets/gangster_1.png",
+                "type": "image",
+                "key": "gangster_1"
+            },
+            {
+                "url": "assets/gangster_2.png",
+                "type": "image",
+                "key": "gangster_2"
+            },
+            {
+                "url": "assets/gangster_3.png",
+                "type": "image",
+                "key": "gangster_3"
+            },
+            {
+                "url": "assets/gangster_4.png",
+                "type": "image",
+                "key": "gangster_4"
+            },
+            {
+                "url": "assets/gangster_5.png",
+                "type": "image",
+                "key": "gangster_5"
             }
         ]
     },
@@ -12,6 +42,7 @@
         "app": "Phaser Editor 2D - Asset Pack Editor",
         "contentType": "phasereditor2d.pack.core.AssetContentType",
         "url": "https://phasereditor2d.com",
-        "version": 2
+        "version": 2,
+        "showAllFilesInBlocks": false
     }
 }

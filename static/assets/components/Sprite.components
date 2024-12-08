@@ -1,0 +1,28 @@
+{
+    "components": [
+        {
+            "name": "walkAnimation",
+            "displayName": "Walk Animation",
+            "objectDisplayFormat": "",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "animationKey",
+                    "label": "Animation Key",
+                    "tooltip": "a sprite animation key",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - User Components Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.UserComponents"
+    }
+}
