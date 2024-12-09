@@ -8,12 +8,23 @@
 A project template for Phaser 3, Webpack 5, TypeScript, and Phaser Editor 2D v3.
 It also includes a workflow for deploying the game to GitHub Pages.
 
-## Change log
+## Environment
 
+- phaser 3.60.0
+- phaser editor 2d v3
+- webpack 5
+- typescript 5.0.4
+
+## Change Log
+
+### [2024-12-07]
 - 設定github page, 開發環境架設
 
-## install
+### [2024-12-08]
+- 初始專案設置
+- 添加Webpack和TypeScript支持
+- add editor and remote. 
+- add game object, gangster, player, platform, enemy, bullet, etc.
 
-- npm run editor-remote: editor ide.
-- npm start: development web broswer.
-- npm run dev?
+### [2024-12-09]
+- create game scene.
