@@ -1,12 +1,12 @@
 {
-    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "id": "game-scene",
     "sceneType": "SCENE",
     "settings": {
         "exportClass": true,
         "autoImport": true,
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
-        "sceneKey": "Level",
+        "sceneKey": "Game",
         "compilerOutputLanguage": "TYPE_SCRIPT",
         "borderWidth": 1280,
         "borderHeight": 720
@@ -18,22 +18,23 @@
             "label": "player",
             "x": 640,
             "y": 360,
-            "width": 50,
-            "height": 50,
             "isFilled": true,
-            "fillColor": "#00ff00"
+            "fillColor": "#ff0000",
+            "width": 50,
+            "height": 50
         },
         {
-            "type": "Sprite",
-            "id": "344d362d-c8e2-48f7-887d-e089ca09b518",
-            "label": "gangster_1",
-            "texture": {
-                "key": "gangster_1"
-            },
-            "x": 201,
-            "y": 359,
-            "animationPlayMethod": 1,
-            "animationKey": "gangster_1_walk"
+            "type": "Text",
+            "id": "gameTitle",
+            "label": "gameTitle",
+            "x": 604,
+            "y": 99,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Game Scene",
+            "fontFamily": "Arial",
+            "fontSize": "32px",
+            "color": "#ffffff"
         }
     ],
     "plainObjects": [],
