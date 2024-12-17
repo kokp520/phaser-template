@@ -2,6 +2,8 @@
 
 > fork by phaser-template-webpack
 > 基於 phaser-template-webpack 修改
+> 先用phaser-template當作url, same as github page.
+> change to satoshi or other game name after finish phaser-template.
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-webpack)
 
